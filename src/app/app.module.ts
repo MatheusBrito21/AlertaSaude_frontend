@@ -11,7 +11,8 @@ import { NavComponent } from './component/nav/nav.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    
   ],
   imports: [
     BrowserModule,

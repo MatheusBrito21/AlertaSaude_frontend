@@ -1,7 +1,7 @@
 <div class="nav">
     <div class="nav-top-logo">
         <mat-card>
-            <mat-card-content>(logomarca do ALERTA SAUDE) (tel/zap) xxxxxxxxxx   Endereço:</mat-card-content>
+            <mat-card-content><a routerLink="home">(logomarca do ALERTA SAUDE) (tel/zap) xxxxxxxxxx  Endereço: </a></mat-card-content>
         </mat-card>  
     </div>
     <div class="nav-mid-buttons">
@@ -16,21 +16,22 @@
     <div class="nav-topic-buttons">
         <mat-card>
             <mat-card-content>
-                <button mat-button> <a routerLink="home">Sobre</a></button>
+                <button mat-button>Sobre</button>
                 <button mat-button>Objetivos</button>
                 <button mat-button>Como Funciona</button>
                 <button mat-button>Doenças Crônicas</button>
                 <button mat-button>Diferenciais</button>
                 <button mat-button>Avaliação Urgente</button>
                 <button mat-button>Representante</button>
-
-
             </mat-card-content>
         </mat-card>  
     </div>
 
     <div class="conteudo">
-        <router-outlet></router-outlet>
+        <mat-card-content>
+            <router-outlet></router-outlet>
+        </mat-card-content>
+        
     </div>
 
 </div>
