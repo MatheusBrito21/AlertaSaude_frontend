@@ -1,0 +1,5 @@
+.colunas{
+    flex-direction: row;
+    display: flex;
+    border-right-style: dashed;
+}

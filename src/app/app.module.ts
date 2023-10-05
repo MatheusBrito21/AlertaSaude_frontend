@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { NavComponent } from './component/nav/nav.component';
+import { SobreComponent } from './component/sobre/sobre.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { NavComponent } from './component/nav/nav.component';
     AppComponent,
     HomeComponent,
     NavComponent,
+    SobreComponent,
     
   ],
   imports: [
