@@ -6,6 +6,7 @@ import { HomeComponent } from './component/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { NavComponent } from './component/nav/nav.component';
 import { SobreComponent } from './component/sobre/sobre.component';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SobreComponent } from './component/sobre/sobre.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

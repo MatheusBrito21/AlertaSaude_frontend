@@ -1,4 +1,76 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+span{   
+    font-weight: bold;
+    text-decoration: none;
+    margin: 50px;
+}
+
 .conteudo{
     margin: 5px;
     padding: 50px;
+    border: 1px solid green;
 }
+
+/*div da logo*/
+.nav-top-logo{
+    align-items: flex-end;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../../assets/background.jpeg');
+    background-size: contain;
+    
+}
+
+
+.item-top > img{
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-top-buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+}
+.top-button{ 
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/*div dos botoes*/
+.nav-topic-buttons{
+    background-color: rgb(12, 197, 230);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.topic-buttons, a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(12, 197, 230);
+    border-radius: 5px;
+}
+
+
+
+

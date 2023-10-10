@@ -1,37 +1,59 @@
 <div class="nav">
     <div class="nav-top-logo">
-        <mat-card>
-            <mat-card-content><a routerLink="home">(logomarca do ALERTA SAUDE) (tel/zap) xxxxxxxxxx  Endereço: </a></mat-card-content>
-        </mat-card>  
-    </div>
-    <div class="nav-mid-buttons">
-        <mat-card>
-            <mat-card-content>
-                <button mat-button color="primary">Primary</button>
-                <button mat-button color="primary">Primary</button>
-            </mat-card-content>
-        </mat-card>  
+    
+                <div class="item-top">
+                    <img src="../../../assets/eprev_logo.png">
+                    <div>
+                        <span>
+                           (telefone/zap) xxxxxxxxxx  Endereço: 
+                        </span>     
+                    </div>
+                </div>
+
+                <div class="item-top-buttons">
+                    <div class="top-button">
+                        <button mat-raised-button color="primary">Quero Associar</button>
+                    </div>
+                    <div class="top-button">
+                        <button mat-raised-button color="primary">Agendar Consultas</button>
+                    </div>
+                        
+                      
+                </div>
+    
     </div>
 
     <div class="nav-topic-buttons">
-        <mat-card>
-            <mat-card-content>
-                <button mat-button>
-                    <a routerLink="sobre">Sobre</a>
-                </button>
-                <button mat-button>Objetivos</button>
-                <button mat-button>Como Funciona</button>
-                <button mat-button>Doenças Crônicas</button>
-                <button mat-button>Diferenciais</button>
-                <button mat-button>Avaliação Urgente</button>
-                <button mat-button>Representante</button>
-            </mat-card-content>
-        </mat-card>  
+
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Sobre</a></button>
+        </div>
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Objetivos</a></button>
+        </div>
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Como Funciona</a></button>
+        </div>
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Doenças Crônicas</a></button>
+        </div>
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Diferenciais</a></button>
+        </div>
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Sobre</a></button>
+        </div>
+        <div class="topic-buttons">
+            <button mat-raised-button color="primary"><a routerLink="sobre">Representante</a></button>
+        </div>
+             
+        
     </div>
 
     <div class="conteudo">
-        <mat-card-content>
+        <div>
             <router-outlet></router-outlet>
-        </mat-card-content>
+        </div>
+        
     </div>
 </div>
