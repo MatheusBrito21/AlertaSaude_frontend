@@ -7,6 +7,7 @@ import {MatCardModule} from '@angular/material/card';
 import { NavComponent } from './component/nav/nav.component';
 import { SobreComponent } from './component/sobre/sobre.component';
 import {MatButtonModule} from '@angular/material/button';
+import { DoencasCronicasComponent } from './component/doencas-cronicas/doencas-cronicas.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import {MatButtonModule} from '@angular/material/button';
     HomeComponent,
     NavComponent,
     SobreComponent,
+    DoencasCronicasComponent,
     
   ],
   imports: [
