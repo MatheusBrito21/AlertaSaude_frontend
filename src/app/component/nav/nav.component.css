@@ -61,7 +61,7 @@ span{
     justify-content: space-around;
     margin: 0px;
     padding: 10px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 
 .topic-buttons, a{
