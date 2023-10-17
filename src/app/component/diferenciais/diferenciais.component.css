@@ -1,7 +1,18 @@
-.div-content{
+/* .div-content{
     border: 1px solid purple;
+} */
+
+.content{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .card{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 90%;
     margin: 1rem auto;
     background-color: rgb(172, 245, 245);
@@ -12,4 +23,17 @@
     display: flex;
     justify-content: left;
     align-items: left;   
+}
+h3{color: black;}
+
+.header-image{
+    width: 150px;
+    height: 150px;
+    background-image: url('../../../assets/liz.png');
+    background-size: cover;
+}
+
+.tituloLiz{
+    font-size: 15pt;
+    color: black;
 }
