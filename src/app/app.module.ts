@@ -8,6 +8,10 @@ import { NavComponent } from './component/nav/nav.component';
 import { SobreComponent } from './component/sobre/sobre.component';
 import {MatButtonModule} from '@angular/material/button';
 import { DoencasCronicasComponent } from './component/doencas-cronicas/doencas-cronicas.component';
+import { DiferenciaisComponent } from './component/diferenciais/diferenciais.component';
+import { RepresentanteComponent } from './component/representante/representante.component';
+import { ObjetivosComponent } from './component/objetivos/objetivos.component';
+import { ComoFuncionaComponent } from './component/como-funciona/como-funciona.component';
 
 
 @NgModule({
@@ -17,6 +21,10 @@ import { DoencasCronicasComponent } from './component/doencas-cronicas/doencas-c
     NavComponent,
     SobreComponent,
     DoencasCronicasComponent,
+    DiferenciaisComponent,
+    RepresentanteComponent,
+    ObjetivosComponent,
+    ComoFuncionaComponent,
     
   ],
   imports: [
