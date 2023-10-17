@@ -1,7 +1,7 @@
 .nav{
     display: flex;
     flex-direction: column;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
 }
 
@@ -14,7 +14,7 @@ span{
 .conteudo{
     margin: 5px;
     padding: 25px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 /*div da logo*/

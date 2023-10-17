@@ -12,7 +12,9 @@ import { DiferenciaisComponent } from './component/diferenciais/diferenciais.com
 import { RepresentanteComponent } from './component/representante/representante.component';
 import { ObjetivosComponent } from './component/objetivos/objetivos.component';
 import { ComoFuncionaComponent } from './component/como-funciona/como-funciona.component';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,10 @@ import { ComoFuncionaComponent } from './component/como-funciona/como-funciona.c
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
