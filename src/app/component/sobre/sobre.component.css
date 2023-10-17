@@ -12,19 +12,24 @@
 }
 
 .content img{
-    width: 70%;
-    height: 200px;
+    width: 60%;
+    max-height: 250px;
+    
+    
 }
 
 
 .card{
     width: 90%;
-    height: 250px;
-    margin: 1rem auto;
+    min-height: 300px;
+    margin: 10px;
+    padding: 0px;
+    padding-left:20px ;
+    padding-right:20px ;
     background-color: rgb(172, 245, 245);
     font-size: 15pt;
     display: flex;
-    padding: 20px;
+    flex-flow:row ;
     flex-direction: column;
     align-items: flex-start;
     display: flex;
