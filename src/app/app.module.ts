@@ -15,6 +15,8 @@ import { ComoFuncionaComponent } from './component/como-funciona/como-funciona.c
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 .content{
-    border: none orange;
-    margin: 0px;
+    /* border: none orange; */
+    margin: 1px;
     padding: 0px;
     width: 100%;
 }
