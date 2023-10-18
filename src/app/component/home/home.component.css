@@ -2,7 +2,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     text-align: center;
-    margin: 20px;
+    margin-top: 5px;
     
 }
 
@@ -18,4 +18,38 @@
     justify-content: center;
     align-items: center;   
 }
+/*div da logo*/
+.nav-top-logo{
+    /* border: 1px solid red; */
+    align-items: flex-end;
+    margin: 0px;
+    padding: 10px;
+    min-height: 460px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(255, 255, 255, 0)),
+                url('../../../assets/posterEprev-1.jpg');
+    background-size: cover;
+    
+}
+.item-top{
+    /* height: 300px; */
+    text-align: left;
+    padding-left: 50px;
+    justify-content: flex-end;
+    color: aliceblue;
+    /* border: 1px solid red; */
+}
 
+.item-top-buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.top-button{ 
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 5px;
+    margin: 10px;
+}
