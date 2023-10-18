@@ -4,6 +4,17 @@
     /* border: 1px solid orange; */
     width: 100%;
 }
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 125px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
 
 span{   
     font-weight: bold;
@@ -18,14 +29,17 @@ span{
 }
 
 /*div da logo*/
+
 .nav-top-logo{
     align-items: flex-end;
     margin: 5px;
     padding: 10px;
+    min-height: 600px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    background-image: url('../../../assets/background.jpeg');
-    background-size: contain;
+    background-image: url('../../../assets/posterEprev.jpg');
+    background-size: cover;
     
 }
 
@@ -39,7 +53,11 @@ span{
 
 .item-top{
     display: flex;
+    height: 300px;
+    padding-left: 50px;
     flex-direction: column;
+    color: aliceblue;
+    border: 1px solid red;
 }
 
 .item-top-buttons{
@@ -55,7 +73,18 @@ span{
 }
 
 /*div dos botoes*/
+.logo{
+    background-image: url('../../../assets/eprev_logo-2.png');
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    width: 220px;
+    height: 120px;
+    /* border: solid 1px red; */
+
+}
 .nav-topic-buttons{
+    /* border: 1px solid purple; */
     border-radius: 5px;
     background-color: rgb(12, 197, 230);
     display: flex;
@@ -68,12 +97,15 @@ span{
 
 .topic-buttons, a{
     color: white;
-    font-weight: bold;
+    width: auto;
+    /* font-weight: bold; */
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 10pt;
     /* background-color: rgb(12, 197, 230); */
     border-radius: 5px;
 }
+
 
 /* cores dos botoes personalizadas */
 .mat-navButtonColor{

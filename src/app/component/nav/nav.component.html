@@ -1,16 +1,48 @@
 <div class="pagina">
     <div class="nav">
-        <div class="nav-top-logo">
-    
-                <div class="item-top">
-                    <img src="../../../assets/eprev_logo.png">
-                    <div>
-                        <span>
-                            (telefone/zap) xxxxxxxxxx  Endereço: 
-                        </span>     
-                    </div>
+        <mat-card class="card mat-elevation-z8">
+          
+            <div class="logo">
+                <!-- <img src="../../../assets/eprev_logo.png"> -->
+            </div>
+            <div class="nav-topic-buttons">
+
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a routerLink="home">Home</a></button>
+                </div>
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a routerLink="sobre">Sobre</a></button>
+                </div>
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a routerLink="objetivos">Objetivos</a></button>
+                </div>
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a routerLink="como-funciona">Como
+                            Funciona</a></button>
+                </div>
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a routerLink="doencas">Doenças
+                            Crônicas</a></button>
+                </div>
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a
+                            routerLink="diferenciais">Diferenciais</a></button>
+                </div>
+                <div class="topic-buttons">
+                    <button mat-button color="navButtonColor"><a
+                            routerLink="representante">Representante</a></button>
                 </div>
 
+
+            </div>
+        </mat-card>
+            <div class="nav-top-logo">
+                <div class="item-top">
+                    <h2>SUA SAÚDE MONITORADA 24 HORAS TODOS OS DIAS ALERTA SAÚDE </h2>
+                    <h1>Alerta Saude</h1>
+                    <p>Uma plataforma com Inteligência Artificial para telemonitoramento da saúde à distância</p>
+                </div>
+                
                 <div class="item-top-buttons">
                     <div class="top-button">
                         <button mat-raised-button color="topButtons">Quero Associar</button>
@@ -18,46 +50,18 @@
                     <div class="top-button">
                         <button mat-raised-button color="topButtons">Teleconsultas</button>
                     </div>
-                    
-                    
                 </div>
     
             </div>
+       
 
-            <mat-card class="card mat-elevation-z8">
-                <div class="nav-topic-buttons">
-        
-                    <div class="topic-buttons">
-                        <button mat-raised-button color="navButtonColor"><a routerLink="home">Home</a></button>
-                    </div>
-        <div class="topic-buttons">
-            <button mat-raised-button color="navButtonColor"><a routerLink="sobre">Sobre</a></button>
-        </div>
-        <div class="topic-buttons">
-            <button mat-raised-button color="navButtonColor"><a routerLink="objetivos">Objetivos</a></button>
-        </div>
-        <div class="topic-buttons">
-            <button mat-raised-button color="navButtonColor"><a routerLink="como-funciona">Como Funciona</a></button>
-        </div>
-        <div class="topic-buttons">
-            <button mat-raised-button color="navButtonColor"><a routerLink="doencas">Doenças Crônicas</a></button>
-        </div>
-        <div class="topic-buttons">
-            <button mat-raised-button color="navButtonColor"><a routerLink="diferenciais">Diferenciais</a></button>
-        </div>
-        <div class="topic-buttons">
-            <button mat-raised-button color="navButtonColor"><a routerLink="representante">Representante</a></button>
-        </div>
-        
-        
-    </div>
-    </mat-card>
+       
 
-    <div class="conteudo">
-        <div>
-            <router-outlet></router-outlet>
+        <div class="conteudo">
+            <div>
+                <router-outlet></router-outlet>
+            </div>
+
         </div>
-        
-    </div>
     </div>
 </div>
