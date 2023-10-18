@@ -12,6 +12,10 @@
     flex-direction: column;
     display: flex;
 }
+.formulario-card{
+  display: flex;
+  flex-direction: column;
+}
 
 .card-form{
   color: black;

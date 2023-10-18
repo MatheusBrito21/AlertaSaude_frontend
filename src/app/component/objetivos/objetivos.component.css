@@ -1,0 +1,22 @@
+.content{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.card{
+    width: 90%;
+    margin: 1rem auto;
+    background-color: rgb(172, 245, 245);
+    font-size: 25pt;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}

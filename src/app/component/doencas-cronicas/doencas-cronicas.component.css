@@ -1,6 +1,6 @@
 .content-div{
     width: 100%;
-    border: 1px solid rgb(226, 0, 0);
+    /* border: 1px solid rgb(226, 0, 0); */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -12,7 +12,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 70%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .box{
     margin: 20px;
