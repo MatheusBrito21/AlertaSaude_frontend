@@ -1,7 +1,7 @@
 {
   "name": "alerta-saude",
   "version": "0.0.0",
-  "homepage":"https://matheusbrito21.github.io/AlertaSaude_frontend",
+  "homepage":"https://MatheusBrito21.github.io/AlertaSaude_frontend",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
