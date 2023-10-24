@@ -1,7 +1,7 @@
 {
   "name": "alerta-saude",
   "version": "0.0.0",
-  "homepage":"https://MatheusBrito21.github.io/AlertaSaude_frontend",
+  "homepage":"https://MatheusBrito21.github.io/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/cdk": "^16.2.8",
