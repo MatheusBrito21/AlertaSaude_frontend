@@ -20,7 +20,7 @@
 }
 /*div da logo*/
 .nav-top-logo{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: flex-end;
     margin: 0px;
     padding: 10px;
