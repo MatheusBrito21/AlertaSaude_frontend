@@ -20,7 +20,7 @@
 }
 /*div da logo*/
 .nav-top-logo{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     align-items: flex-end;
     margin: 0px;
     padding: 10px;
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(255, 255, 255, 0)),
                 url('../../../assets/posterEprev-1.jpg');
     background-size: cover;
@@ -36,20 +37,22 @@
 .item-top{
     /* height: 300px; */
     text-align: left;
-    padding-left: 50px;
+    padding-left: 30px;
     justify-content: flex-end;
     color: aliceblue;
     /* border: 1px solid red; */
 }
 
 .item-top-buttons{
+    /* border: 1px solid red; */
     display: flex;
     justify-content: flex-end;
-    width: 70%;
+    width: 100%;
 }
 .top-button{ 
     color: rgb(255, 255, 255);
     background-color: orange;
     border-radius: 5px;
     margin: 10px;
+    width: auto;
 }

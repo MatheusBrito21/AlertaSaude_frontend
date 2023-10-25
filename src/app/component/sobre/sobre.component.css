@@ -1,6 +1,7 @@
 .colunas{
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     /* border: 1px solid green; */
    margin: 0px;
